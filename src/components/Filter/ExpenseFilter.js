@@ -8,13 +8,6 @@ const ExpenseFilter = (props) => {
    props.onSelectFilter(event.target.value);
   }
 
-  // const submitSelectedDate = () => {
-  //   const onSelectedDate = {
-  //     date: selectedDate
-  //   };
-  //   props.selected(onSelectedDate)
-  //   }
-
     return (
       <div className="expenses-filter">
         <div className="expenses-filter__control">
